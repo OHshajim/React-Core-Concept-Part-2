@@ -21,7 +21,7 @@ export default function Team() {
         <div style={TeamStyle}>
             <h2>Players : {count}</h2>
             <button onClick={AddPlayer}>Add</button>
-            <button onClick={removePlayer}>Add</button>
+            <button onClick={removePlayer}>Remove</button>
         </div>
     )
 }

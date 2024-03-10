@@ -1,17 +1,19 @@
 import { useEffect, useState } from "react";
+import './user.css'
 
-export default function Users(){
-    const [user,setUser] = useState([]);
-    useEffect(()=>{
+
+export default function Users() {
+    const [users, setUser] = useState([]);
+    useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
-        .then(res=>res.json())
-        .then(data=>setUser(data))
-    },[])
-    
+            .then(res => res.json())
+            .then(data => setUser(data))
+    }, [])
 
-    return(
-        <div>
-            <h2>Users : {user.length}</h2>
+
+    return (
+        <div className="box">
+            <h2>Users : {users.length}</h2>
         </div>
     )
 }
