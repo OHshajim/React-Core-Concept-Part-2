@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
-import Members from './Members'
+// import Members from './Members'
+import Posts from './Posts'
 // import Counter from './Counter'
 // import Team from './Team'
 
@@ -16,8 +17,8 @@ function App() {
   return (
     <>
       <h2>React Core Concept Part-2</h2>
-      <Members></Members>
-
+      {/* <Members></Members> */}
+      <Posts></Posts>
       {/* <Users></Users>
       <Team></Team>
       <Counter></Counter>
