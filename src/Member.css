@@ -1,0 +1,14 @@
+.box-container{
+    border: 2px solid rgb(37, 157, 205);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 26px;
+    background: #5f1c04;
+}
+.box{
+    border: 2px solid skyblue;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 26px;
+    background: #963a01;
+}

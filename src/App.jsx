@@ -1,24 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
 import './App.css'
-import Counter from './Counter'
-import Team from './Team'
-import Users from './Users'
-import OH from './OH'
-import OHMember from './OHMember'
+import Members from './Members'
+// import Counter from './Counter'
+// import Team from './Team'
+
 function App() {
-  const HandleClick = () => {
-    alert('hello ')
-  }
-  const HandleClick2 = (num) => {
-    alert('hello ' + num)
-  }
+
+  // const HandleClick = () => {
+  //   alert('hello ')
+  // }
+  // const HandleClick2 = (num) => {
+  //   alert('hello ' + num)
+  // }
+  
   return (
     <>
       <h2>React Core Concept Part-2</h2>
-      <OH></OH>
-      <OHMember></OHMember>
+      <Members></Members>
+
       {/* <Users></Users>
       <Team></Team>
       <Counter></Counter>
